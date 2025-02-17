@@ -1,0 +1,22 @@
+canvas{
+    height: 1400px !important;
+    width: auto !important;
+}
+
+.rpv-core__canvas-layer{
+    display: flex;
+    justify-content: center;
+    height:auto !important;
+}
+
+.rpv-core__text-layer, .rpv-core__annotation-layer {
+    display: none !important;
+  }
+
+.rpv-core__inner-pages>div{
+    height: 1400px !important;
+}
+
+.rpv-core__page-layer, .rpv-core__inner-page{
+    height:auto !important;
+}

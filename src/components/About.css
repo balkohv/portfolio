@@ -1,0 +1,16 @@
+ul{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+}
+
+.large>div>img{
+    width: 280px !important;
+    height: auto !important;
+}
+
+.about-row{
+    padding-bottom: 50px !important;
+}
