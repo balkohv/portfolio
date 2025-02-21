@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import devLogo from "../assets/dev-symb.svg";
 
-const words = ["Développeur FullStack", "Designer", "Administrateur base de données"];
+const words = ["Développeur FullStack", "Développeur PHP","Développeur Symfony","Développeur React", "Administrateur base de données"];
 
 const TypingEffect = () => {
     const [displayedText, setDisplayedText] = useState('');

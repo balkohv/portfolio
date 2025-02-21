@@ -11,14 +11,14 @@ const Project = () => {
     return (
         <div>
             <Row>
-                <h2 className='text-light d-flex justify-content-center'>Quelques réalisations:</h2>
+                <h2 className='text-light d-flex justify-content-center'>Quelques réalisations public:</h2>
             </Row>
             <Row className='justify-content-center'>
                 <Col xs={2}>
                     <Item title="SAPLI" imageUrl={sapli} redirectUrl="https://github.com/balkohv/SAPLI" />
                 </Col>
                 <Col xs={2}>
-                    <Item title="Portfolio" imageUrl={react} redirectUrl/>
+                    <Item title="Portfolio" imageUrl={react} redirectUrl="https://github.com/balkohv/portfolio"/>
                 </Col>
                 <Col xs={2}>
                     <Item title="Gestion de cabinet médical (scolaire)" imageUrl={php} redirectUrl="https://github.com/balkohv/Projet_php"/>
