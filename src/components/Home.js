@@ -3,6 +3,7 @@ import './Home.css';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import devLogo from "../assets/dev-symb.svg";
+import profile from "../assets/profile.jpeg";
 
 const words = ["Développeur FullStack", "Développeur PHP","Développeur Symfony","Développeur React", "Administrateur base de données"];
 
@@ -50,7 +51,7 @@ const Home = () => {
                     <TypingEffect />
                 </Col>
                 <Col xs={3} className="profile-pic right">
-                    <img src="https://imgs.search.brave.com/L8g0q2VTDqc0PX3hfAVBBNx6gKLd9JE0Gld8jH4BjvQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNjE5/NDAwODEwL3Bob3Rv/L21yLXdoby5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9aGFy/VHhXX0lSbDA2Q25o/LTRrbkNudHh3WWlx/V282eWlBeEpUcld5/U0ppRT0" alt="Profile" />
+                    <img src={profile} alt="Profile" />
                 </Col>
             </Row>
             <h1 className="text-light">En savoir plus sur moi!</h1>
