@@ -17,8 +17,13 @@ function CV() {
         <div>
             <Container fluid className="resume-section">
                 <Row className="resume d-flex justify-content-center">
-                    <Worker workerUrl={`https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.worker.min.js`}>
-                        <Viewer fileUrl={pdf} />
+                    <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+                        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "100%" }}>
+                            <Viewer 
+                                fileUrl={pdf}
+                                defaultScale={1} 
+                            />
+                        </div>
                     </Worker>
                 </Row>
                 <Row style={{ justifyContent: "center", position: "relative", padding: "5vh" }}>

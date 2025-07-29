@@ -25,7 +25,7 @@ const About = () => {
                 <h2 className='text-light d-flex justify-content-center'>Plus sur moi</h2>
             </Row>
             <Row className='p-0'>
-                <Col xs={5}>
+                <Col className='about-me-text' xs={5}>
                     <p>
                         Je m'appelle Théo Pellefigue. Je suis titulaire d'un baccalauréat STI2D option SIN du lycée Jean François Champollion de Figeac,
                         ainsi que d'un DUT Informatique de l'IUT Paul Sabatier de Toulouse. J'ai eu l'opportunité de travailler chez Appligos-OpenDev pendant deux ans et demi en tant que développeur FullStack Symfony.
@@ -42,13 +42,13 @@ const About = () => {
                     </ul>
                 </Col>
                 <Col xs={4}>
-                    <img src={pairLogo} alt="pair" />
+                    <img src={pairLogo} alt="pair" className='pair' />
                 </Col>
             </Row>
             <Row className='p-0'>
                 <h2 className='text-light d-flex justify-content-center'>Mes outils</h2>
             </Row>
-            <Row className='justify-content-center'>
+            <Row className='outils justify-content-center'>
                 <Col xs={2}>
                     <Item title="PHP" imageUrl={php} redirectUrl=""/>
                     <Item title="GIT" imageUrl={git} redirectUrl=""/>

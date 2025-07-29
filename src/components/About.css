@@ -14,3 +14,50 @@ li{
 .about-row{
     padding-bottom: 50px !important;
 }
+
+@media (max-width: 768px) {
+    .about-row{
+        padding-bottom: 0 !important;
+    }
+
+    .about-me-text {
+        width: 90vw !important;
+    }
+
+    .p-0{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .item{
+        height:132px !important;
+        width: 200px !important;
+    }
+
+    .item-image{
+        height:130px !important;
+    }
+
+    .outils{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .outils>div{
+        justify-content: center;
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pair{
+        display:none;
+    }
+}

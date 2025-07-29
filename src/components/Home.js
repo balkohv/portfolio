@@ -55,11 +55,11 @@ const Home = () => {
                 </Col>
             </Row>
             <h1 className="text-light">En savoir plus sur moi!</h1>
-            <Row>
+            <Row className="about-me">
                 <Col xs={3} className="dev-pic">
                     <img src={devLogo} alt="dev" />
                 </Col>
-                <Col xs={6} className="right d-flex align-items-center">
+                <Col xs={6} className="about-me-text right d-flex align-items-center">
                     <p className="text-light fs-4">
                     Je suis un jeune diplômé d'un DUT Informatique obtenu à l'Université Toulouse Paul Sabatier, passionné par le développement web.
                     Curieux et motivé, j'aime découvrir de nouvelles technologies et enrichir continuellement mes compétences.

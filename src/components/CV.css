@@ -1,5 +1,5 @@
 canvas{
-    height: 1400px !important;
+    height: 90vh !important;
     width: auto !important;
 }
 
@@ -9,14 +9,27 @@ canvas{
     height:auto !important;
 }
 
+.rpv-core__inner-page{
+    display: flex;
+    justify-content: center;
+}
+
 .rpv-core__text-layer, .rpv-core__annotation-layer {
     display: none !important;
   }
 
 .rpv-core__inner-pages>div{
-    height: 1400px !important;
+    height: 90vh !important;
 }
 
 .rpv-core__page-layer, .rpv-core__inner-page{
     height:auto !important;
+}
+
+.resume-section {
+    margin-top: 10vh;
+}
+
+.resume{
+    padding:0;
 }

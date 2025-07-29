@@ -34,3 +34,48 @@
   width: 400px;
   height: 400px;
 }
+
+@media (max-width: 768px) {
+  .home-container>h1 {
+    padding-left: 5vw;
+  }
+
+  .profile-pic img {
+    width: 18vw;
+    height: 18vw;;
+  }
+
+  .dev-pic img {
+    display: none;
+  }
+
+  .type-effect {
+    margin: 2%;
+    height: 30px;
+  }
+
+  .navbar-brand{
+    display: none;
+  }
+
+  .navbar-toggler{
+    display: none;
+  }
+
+  .navbar-nav{
+    font-size: xx-small;
+    display: flex !important;
+    flex-direction: row !important;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-me-text {
+    width: 90vw !important;
+  }
+}
